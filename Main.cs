@@ -17,6 +17,7 @@ namespace YizziCamModV2
         {
             HarmonyPatches.ApplyHarmonyPatches();
             DontDestroyOnLoad(this);
+            photonnetworkcontroller.instance.disableafkkick = true
         }
     }
 }
